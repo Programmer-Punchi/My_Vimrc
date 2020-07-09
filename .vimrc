@@ -2,6 +2,8 @@ syntax on " コードを色分けする
 set number " 行番号の表示
 set cursorline " 現在行を強調表示
 set title " 編集中のファイル名を表示
+
+set encoding=utf-8 " 日本語のエンコーディング
 set fileencodings=iso-2022-jp,utf-8,cp932,euc-jp " 日本語の文字エンコーディング
 set fileformats=unix,dos,mac " 改行コードの自動認識
 set list " 不可視文字の可視化
